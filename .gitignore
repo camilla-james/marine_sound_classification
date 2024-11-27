@@ -1,3 +1,7 @@
+# Datasets
+data/
+test_data/
+note-marine-sound-classification.ipynb
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
