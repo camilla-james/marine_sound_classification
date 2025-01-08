@@ -1,1 +1,14 @@
 # marine_sound_classification
+
+Marine ecosystems are vital to global biodiversity and ocean health. However, anthropogenic noise pollution increasingly threatens these environments. Passive acoustic monitoring (PAM) offers a minimally invasive approach for studying animal behaviour, monitoring marine protected areas (MPAs), and assessing ocean health through sound classification. The automation of large-scale datasets from PAM recordings is necessary to advance biodiversity conservation efforts and inform policies on ocean noise mitigation. Spectrogram-based convolutional neural networks (CNNs) are commonly used for bioacoustic classification tasks, yet they often struggle with overfitting and inefficiency in real-time classification. This study evaluates CNN limitations and explores transfer learning and data augmentation techniques for improving the robustness and predictive power of marine sound classification models. Using data from the Watkins Marine Database, we compare various deep learning approaches, for their effectiveness in classifying diverse ocean sounds. Our results highlight the importance of data diversity and transfer learning for enhanced generalization, with the CNN trained on augmented data achieving the highest accuracy while the pre-trained model had the best predictive ability. The findings contribute to the development of accurate and efficient predictive models for ecosystem monitoring, while identifying directions for future research, such as expanded datasets, increased computational resources, and the inclusion of anthropogenic sound sources.
+
+# Files
+
+## `exploration_simple_cnn.ipynb`
+This notebook explores the basic implementation of a Convolutional Neural Network (CNN) for marine sound classification. It presents a simple CNN model trained on raw data, providing insight into its performance and potential limitations such as overfitting and classification inefficiencies.
+
+## `exploration_data_augmentation.ipynb`
+This notebook focuses on applying data augmentation techniques to improve the performance of CNN models in classifying marine sounds. It investigates how artificially expanding the dataset through transformations such as time-shifting, pitch-shifting, and noise addition helps improve model accuracy and generalization.
+
+## `exploration_transfer_learning.ipynb`
+This notebook evaluates the use of transfer learning in marine sound classification. It examines how leveraging pre-trained models on related tasks can enhance model performance, reduce training time, and improve predictive power for marine sound data, particularly when using smaller datasets.
